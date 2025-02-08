@@ -34,8 +34,8 @@
     "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
-    "../../apps/tech-book-club-landing/.next/types/**/*.ts",
-    "../../dist/apps/tech-book-club-landing/.next/types/**/*.ts",
+    "../../apps/single-page-design-portfolio/.next/types/**/*.ts",
+    "../../dist/apps/single-page-design-portfolio/.next/types/**/*.ts",
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],

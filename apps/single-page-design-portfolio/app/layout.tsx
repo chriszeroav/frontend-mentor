@@ -1,8 +1,8 @@
 import './global.css';
 
 export const metadata = {
-  title: 'Tech Book Club Landing',
-  description: 'Tech Book Club Landing',
+  title: 'Single Page Design Portfolio',
+  description: 'Single Page Design Portfolio',
 };
 
 export default function RootLayout({
