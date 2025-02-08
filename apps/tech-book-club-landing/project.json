@@ -1,0 +1,9 @@
+{
+  "name": "tech-book-club-landing",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/tech-book-club-landing",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project tech-book-club-landing --web",
+  "targets": {}
+}
