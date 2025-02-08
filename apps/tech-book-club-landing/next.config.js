@@ -12,8 +12,6 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
-  distDir: 'dist',
-  output: 'standalone',
 };
 
 const plugins = [
