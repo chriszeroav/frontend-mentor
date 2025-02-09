@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-heading-l {
+    @apply font-jet-brains-mono font-bold text-[32px];
+  }
+
+  .text-heading-m {
+    @apply font-jet-brains-mono font-bold text-[24px];
+  }
+
+  .text-body-m {
+    @apply font-jet-brains-mono font-bold text-[18px];
+  }
+
+  .text-preset {
+    @apply font-jet-brains-mono font-bold text-[16px];
+  }
+}
