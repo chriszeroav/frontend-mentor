@@ -16,6 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@password-generator-app/*": ["apps/password-generator-app/*"],
+      "@tech-book-club-landing/*": ["apps/tech-book-club-landing/*"],
+
       "ui-components": ["libs/ui-components/src/index.ts"]
     }
   },

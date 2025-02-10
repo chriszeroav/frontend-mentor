@@ -1,10 +1,19 @@
-import { Button } from 'ui-components';
+import {
+  About,
+  Options,
+  Services,
+  Steps,
+  Testimonials,
+} from '@tech-book-club-landing/components/home';
 
-export default function Index() {
+export default function Home() {
   return (
-    <div className="h-screen grid place-content-center gap-2">
-      <h1 className="text-2xl">Tech Book Club Landing</h1>
-      <Button>Hola</Button>
-    </div>
+    <main className="flex flex-col gap-16 lg:gap-32">
+      <Services />
+      <About />
+      <Steps />
+      <Options />
+      <Testimonials />
+    </main>
   );
 }

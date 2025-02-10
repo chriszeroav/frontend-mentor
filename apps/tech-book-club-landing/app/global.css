@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-preset1 {
+    @apply font-martian-mono font-bold text-[62px] leading-[120%] -tracking-[2px];
+  }
+
+  .text-preset1-mobile {
+    @apply font-martian-mono font-bold text-[38px] leading-[120%] -tracking-[2px];
+  }
+
+  .text-preset2 {
+    @apply font-martian-mono font-semibold text-[50px] leading-[130%] -tracking-[2px];
+  }
+
+  .text-preset2-mobile {
+    @apply font-martian-mono font-semibold text-[34px] leading-[130%] -tracking-[2px];
+  }
+
+  .text-preset3 {
+    @apply font-martian-mono font-semibold text-[34px] leading-[130%] -tracking-[1px];
+  }
+
+  .text-preset3-mobile {
+    @apply font-martian-mono font-semibold text-[24px] leading-[110%] -tracking-[1px];
+  }
+
+  .text-preset4 {
+    @apply font-martian-mono font-semibold text-[24px] leading-[110%] -tracking-[1px];
+  }
+
+  .text-preset4-regular {
+    @apply font-martian-mono font-normal text-[24px] leading-[110%] -tracking-[1px];
+  }
+
+  .text-preset5 {
+    @apply font-inter font-normal text-[20px] leading-[140%] -tracking-[0.5px];
+  }
+
+  .text-preset6 {
+    @apply font-martian-mono font-semibold text-[18px] leading-[130%] -tracking-[1px];
+  }
+
+  .text-preset6-mobile {
+    @apply font-martian-mono font-semibold text-[16px] leading-[130%] -tracking-[1px];
+  }
+
+  .text-preset7 {
+    @apply font-martian-mono font-normal text-[14px] leading-[120%] -tracking-[1px];
+  }
+}
