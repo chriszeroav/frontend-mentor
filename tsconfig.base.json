@@ -20,6 +20,7 @@
         "apps/single-page-design-portfolio/*"
       ],
       "@tech-book-club-landing/*": ["apps/tech-book-club-landing/*"],
+      "@product-list-with-cart/*": ["apps/product-list-with-cart/*"],
 
       "ui-components": ["libs/ui-components/src/index.ts"]
     }
