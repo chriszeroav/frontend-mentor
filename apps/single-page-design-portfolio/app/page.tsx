@@ -1,10 +1,17 @@
-import { Button } from 'ui-components';
+import {
+  About,
+  Help,
+  Projects,
+  Welcome,
+} from '@single-page-design-portfolio/components/home';
 
-export default function Index() {
+export default function Home() {
   return (
-    <div className="h-screen grid place-content-center gap-2">
-      <h1 className="text-2xl">Single Page Design Portfolio</h1>
-      <Button>Hola</Button>
-    </div>
+    <main className="flex flex-col gap-20">
+      <Welcome />
+      <About />
+      <Projects />
+      <Help />
+    </main>
   );
 }
